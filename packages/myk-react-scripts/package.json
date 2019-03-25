@@ -1,0 +1,19 @@
+{
+  "name": "myk-react-scripts",
+  "version": "0.1.0",
+  "description": "Custom React Scripts",
+  "main": "index.js",
+  "keywords": [
+    "react"
+  ],
+  "author": "myklt",
+  "license": "MIT",
+  "bin": {
+    "myk-react-scripts": "./bin/myk-react-scripts.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "react-app-rewired": "^2.1.1",
+    "react-scripts": "^2.1.8"
+  }
+}
