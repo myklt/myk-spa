@@ -1,15 +1,24 @@
 {
-  "name": "myk-react-scripts",
+  "name": "@myklt/react-scripts",
   "version": "0.1.0",
   "description": "Custom React Scripts",
   "keywords": [
     "react"
   ],
   "author": "myklt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myklt/myk-spa"
+  },
   "license": "MIT",
   "bin": {
-    "myk-react-scripts": "./bin/myk-react-scripts.js"
+    "myklt-react-scripts": "./bin/myklt-react-scripts.js"
   },
+  "files": [
+    "bin",
+    "config",
+    "scripts"
+  ],
   "dependencies": {
     "cross-spawn": "^6.0.5",
     "react-app-rewired": "^2.1.1",

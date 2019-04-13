@@ -1,13 +1,13 @@
 {
-  "name": "myk-app",
+  "name": "@myklt/react-app",
   "version": "0.1.0",
   "description": "React App",
   "private": true,
   "homepage": "https://myklt.github.io/myk-spa",
   "scripts": {
-    "start": "myk-react-scripts start",
-    "build": "myk-react-scripts build",
-    "test": "myk-react-scripts test --no-watch --silent",
+    "start": "myklt-react-scripts start",
+    "build": "myklt-react-scripts build",
+    "test": "myklt-react-scripts test --no-watch --silent",
     "test:watch": "myk-react-scripts test",
     "predeploy": "npm test && npm run build",
     "deploy": "gh-pages -d build"
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",    
-    "myk-react-scripts": "0.1.0"
+    "@myklt/react-scripts": "0.1.0"
   },
   "browserslist": [
     ">0.2%",
