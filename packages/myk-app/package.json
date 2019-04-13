@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "description": "React App",
   "main": "index.js",
+  "homepage": "https://myklt.github.io/myk-spa",
   "scripts": {
     "start": "myk-react-scripts start",
     "build": "myk-react-scripts build",
-    "test": "myk-react-scripts test"
+    "test": "myk-react-scripts test --no-watch --silent",    
+    "test:watch": "myk-react-scripts test",
+    "predeploy": "npm test && npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "myklt",
   "license": "MIT",
@@ -20,6 +24,7 @@
     "typescript": "^3.3.4000"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "myk-react-scripts": "0.1.0"
   },
   "config-overrides-path": "node_modules/myk-react-scripts/config-overrides",
