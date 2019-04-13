@@ -1,5 +1,5 @@
 {
-  "name": "myk-app",
+  "name": "@myklt/react-app",
   "version": "0.1.0",
   "description": "React App",
   "private": true,
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",    
-    "myk-react-scripts": "0.1.0"
+    "@myklt/react-scripts": "0.1.0"
   },
   "browserslist": [
     ">0.2%",
