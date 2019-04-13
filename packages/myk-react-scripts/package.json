@@ -2,7 +2,6 @@
   "name": "myk-react-scripts",
   "version": "0.1.0",
   "description": "Custom React Scripts",
-  "main": "index.js",
   "keywords": [
     "react"
   ],
