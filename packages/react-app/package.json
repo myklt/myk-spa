@@ -24,8 +24,8 @@
     "typescript": "^3.4.3"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",    
-    "@myklt/react-scripts": "0.1.0"
+    "@myklt/react-scripts": "^0.1.0",
+    "gh-pages": "^2.0.1"
   },
   "browserslist": [
     ">0.2%",
