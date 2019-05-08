@@ -15,16 +15,16 @@
   "author": "myklt",
   "license": "MIT",
   "dependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/node": "^11.13.4",
-    "@types/react": "^16.8.13",
+    "@types/jest": "^24.0.12",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.5"
   },
   "devDependencies": {
-    "@myklt/react-scripts": "^0.1.0",
+    "@myklt/react-scripts": "^0.2.1",
     "gh-pages": "^2.0.1"
   },
   "browserslist": [
