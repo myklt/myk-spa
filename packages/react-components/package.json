@@ -15,6 +15,10 @@
   },
   "author": "myklt",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myklt/myk-spa"
+  },
   "sideEffects": false,
   "peerDependencies": {
     "react": "^16.0.0",
