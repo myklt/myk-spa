@@ -19,6 +19,9 @@
     "config",
     "scripts"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "cross-spawn": "^6.0.5",
     "react-app-rewired": "^2.1.3",
