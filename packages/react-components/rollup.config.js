@@ -23,6 +23,7 @@ export default [
       commonjs(),
       typescript({
         typescript: require('typescript'),
+        tsconfig: 'tsconfig.components.json',
         rollupCommonJSResolveHack: true,
       }),
       postcss({
