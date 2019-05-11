@@ -1,6 +1,6 @@
 {
   "name": "@myklt/react-components",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reusable React components",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@betit/rollup-plugin-rename-extensions": "0.0.3",
-    "@myklt/react-scripts": "^0.2.1",
+    "@myklt/react-scripts": "^0.2.2",
     "@types/classnames": "^2.2.7",
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
