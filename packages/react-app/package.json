@@ -1,6 +1,6 @@
 {
   "name": "@myklt/react-app",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "React App",
   "private": true,
   "homepage": "https://myklt.github.io/myk-spa",
@@ -15,7 +15,7 @@
   "author": "myklt",
   "license": "MIT",
   "dependencies": {
-    "@myklt/react-components": "^0.1.3",
+    "@myklt/react-components": "^0.2.0",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.30",
     "@types/react": "^16.9.25",
@@ -25,7 +25,7 @@
     "typescript": "^3.8.3"
   },
   "devDependencies": {
-    "@myklt/react-scripts": "^0.2.2",
+    "@myklt/react-scripts": "^0.3.0",
     "gh-pages": "^2.2.0"
   },
   "browserslist": [
