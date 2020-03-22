@@ -1,5 +1,5 @@
 module.exports = {
-  webpack: config => {
+  webpack: (config) => {
     return config;
   },
 };

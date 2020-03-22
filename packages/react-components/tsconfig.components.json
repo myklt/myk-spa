@@ -2,6 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "./dist",
+    "importHelpers": true,
     "jsx": "react",
     "module": "es6",
     "moduleResolution": "node",

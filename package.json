@@ -2,15 +2,16 @@
   "name": "@myklt/spa-monorepo",
   "private": true,
   "devDependencies": {
-    "husky": "^2.2.0",
-    "lerna": "^3.13.4",
-    "lint-staged": "^8.1.6",
-    "prettier": "^1.17.0"
+    "husky": "^4.2.3",
+    "lerna": "^3.20.2",
+    "lint-staged": "10.0.8",
+    "prettier": "^2.0.1"
   },
   "scripts": {
     "start": "npm -C ./packages/react-app run start",
     "build": "npm -C ./packages/react-app run build",
-    "test": "npm -C ./packages/react-app run test"
+    "test": "npm -C ./packages/react-app run test",
+    "prettify": "prettier --write ."
   },
   "husky": {
     "hooks": {

@@ -32,20 +32,18 @@
     "classnames": "^2.2.6"
   },
   "devDependencies": {
-    "@betit/rollup-plugin-rename-extensions": "0.0.3",
     "@myklt/react-scripts": "^0.2.2",
-    "@types/classnames": "^2.2.7",
-    "@types/react": "^16.8.17",
-    "@types/react-dom": "^16.8.4",
-    "@types/styled-components": "^4.1.14",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "rollup": "^1.11.3",
-    "rollup-plugin-commonjs": "^9.3.4",
-    "rollup-plugin-node-resolve": "^4.2.3",
-    "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-typescript2": "^0.21.0",
-    "typescript": "^3.4.5"
+    "@types/classnames": "^2.2.10",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.1.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.5.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.3"
   }
 }
